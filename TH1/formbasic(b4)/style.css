@@ -1,0 +1,78 @@
+body {
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.title {
+    border-bottom: 2px solid #aaa;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.basic-content {
+    margin-left: 30px;
+}
+.employee-form input,
+.employee-form select {
+    max-width: 500px;
+}
+.form-control,
+.form-check {
+    margin-bottom: 3px;
+    border-radius: 0;
+    
+}
+.form-control,
+.form-select {
+    border: 1px solid #000; /* viền đậm */
+}
+.col-form-label {
+    font-size: 15px;
+}
+
+
+.captcha-text {
+    font-family: monospace;
+    font-size: 32px;      /* TO HƠN */
+    font-weight: 700;    /* ĐẬM */
+    letter-spacing: 6px; /* giãn chữ */
+    user-select: none;
+}
+
+.captcha-change {
+    font-size: 14px;
+    font-weight: 600;  
+     /* đậm hơn */
+    text-align: center;
+}
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nav-btn {
+    width: 26px;
+    height: 22px;
+    border: 1px solid #666;
+    background: #eee;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.required-text {
+    margin-left: 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer-right .btn {
+    margin-left: 6px;
+}
