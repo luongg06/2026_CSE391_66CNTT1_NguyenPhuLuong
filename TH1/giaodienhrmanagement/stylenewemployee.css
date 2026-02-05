@@ -1,0 +1,12 @@
+.menu{
+    background-color:rgb(52, 52, 246);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menutext{
+    font-color : white;
+}
+.title{
+    color : white;
+}
