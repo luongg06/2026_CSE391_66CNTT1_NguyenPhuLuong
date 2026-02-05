@@ -8,7 +8,7 @@
     align-items: center;
 }
 .logo{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .trai{
@@ -35,7 +35,7 @@
     justify-content: space-between;
 }
 .add{
-    background-color: rgb(37, 94, 209);
+    background-color: rgb(47, 114, 214);
     width: 70px;
     align-items: center;
     color : white;

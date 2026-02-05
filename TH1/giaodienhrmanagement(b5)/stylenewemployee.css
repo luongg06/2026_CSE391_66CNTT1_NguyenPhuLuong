@@ -1,0 +1,31 @@
+.lon{
+    border: 1px solid rgb(22,110,226);
+    padding: 0;
+    background: white;
+}
+.menu{
+    background-color:rgb(22, 110, 226);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 3px;
+}
+.menutext{
+    font-color : white;
+}
+.title{
+    color : white;
+    margin-left: 16px;;
+}
+.btn-close{
+    margin-right: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    gap : 10px;
+    padding-top : 15px;
+}
+.info{
+    padding : 16px;
+}
