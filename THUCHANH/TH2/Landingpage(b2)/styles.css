@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+
+  background-image: url("images/ocean.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* optional, nhìn rất đẹp */
+  
+}
+#hero {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero-content {
+  background-color: rgba(0, 0, 0, 0.6);
+
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  text-align: center;
+  color: white;
+}
+#hero-content a {
+  display: inline-block;
+
+  padding: 12px 15px;
+  background-color: rgb(251, 205, 41);
+
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 6px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 15px 10px;
+  
+}
+#page-logo a {
+  font-family: 'Oleo Script', cursive;
+  font-size: 30px;
+
+  color: rgb(255, 215, 68);
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color:rgb(255, 215, 68);
+  font-weight: bold;
+}
+
+#highlights {
+  background-color: rgb(210, 245, 245);
+  padding: 4px;
+  text-align: center;
+}
+#destinations {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+.destination img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+
+  border-radius: 10px;
+}
+.destination {
+  width: 30%;    
+}
+strong{
+  color : rgb(38, 205, 205)
+}
+footer {
+  background-color: black;
+  padding: 10px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+}
+footer img {
+  width: 35px;
+  height: 35px;
+
+  object-fit: contain;
+ 
+}
